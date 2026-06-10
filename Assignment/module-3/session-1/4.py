@@ -1,0 +1,5 @@
+f = open(r'E:\Python\Assignment\module-3\session-1\my_fav_songs.txt', 'r')
+song=f.readlines()
+print(song)
+total_song=len(song)
+print("total songs:",total_song)
